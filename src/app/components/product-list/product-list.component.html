@@ -1,1 +1,8 @@
-<p>product-list works!</p>
+<h2>Categoria: {{ categoria | titlecase }}</h2>
+
+<div class="product-grid">
+  <app-product-card
+  *ngFor="let produto of products"
+  [produto]="produto">
+  </app-product-card>
+</div>

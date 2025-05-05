@@ -38,7 +38,7 @@ export class ProductService {
   ];
 
   getProdutsByCategory(category: string): Observable<Product[]> {
-    return of(this.mockProducts.filter(p => p.category === category));
+    return of(this.mockProducts.filter(p => p.category === category)); //para usar a api, so trocar para this.http.get...
   }
 
   getProductsById(id: number): Observable<Product[]>{

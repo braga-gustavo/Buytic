@@ -1,0 +1,16 @@
+.product-card{
+  width: 100%;
+  max-width: 280px;
+  margin: auto;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  display: inline-block;
+  background-color: #ff4081;
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  margin-top: 8px;
+}
